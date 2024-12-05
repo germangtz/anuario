@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kevin Murillo</title>
+    <title>Kevin Murillo Cano</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Estilo de la caja principal */
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+
+        /* Estilo del texto */
+        h1 {
+            font-size: 3rem;
+            color: #333333;
+            margin: 0;
+            letter-spacing: 2px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        /* Efecto de sombra al texto */
+        h1::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 5px;
+            background-color: #000000;
+            margin-top: 15px;
+            animation: slideIn 1s ease-in-out forwards;
+        }
+
+        /* Fondo sutil */
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #000000, #6119be);
+            z-index: -1;
+            animation: gradientShift 5s ease-in-out infinite;
+        }
+
+
+    </style>
 </head>
 <body>
-    Kevin Murillo Cano
+    <div class="background"></div>
+    <div class="container">
+        <h1>Kevin Murillo Cano</h1>
+    </div>
 </body>
 </html>
