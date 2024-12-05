@@ -1,11 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi CV Informal</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #e0f7fa;
+      color: #37474f;
+      line-height: 1.6;
+    }
+    .cv-container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .cv-header {
+      text-align: center;
+      background-color: #00bcd4;
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 10px 10px 0 0;
+    }
+    .cv-header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .cv-header p {
+      margin: 5px 0;
+      font-style: italic;
+    }
+    .cv-section {
+      margin-bottom: 20px;
+    }
+    .cv-section h2 {
+      font-size: 1.8em;
+      color: #00796b;
+      border-bottom: 2px solid #00bcd4;
+      padding-bottom: 5px;
+    }
+    .cv-item h3 {
+      font-size: 1.4em;
+      margin: 5px 0;
+    }
+    .cv-item p {
+      margin: 5px 0 10px;
+    }
+    .cv-item ul {
+      margin: 0;
+      padding: 0 20px;
+    }
+    .cv-item ul li {
+      list-style-type: circle;
+      margin-bottom: 5px;
+    }
+    .cv-skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .cv-skills li {
+      list-style: none;
+      background: #00bcd4;
+      color: #ffffff;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #00bcd4;
+      color: white;
+      border-radius: 0 0 10px 10px;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    SEBASTIAN MADRIGAL QUINTANA
+  <div class="cv-container">
+    <header class="cv-header">
+      <h1>SEBASTIAN MADRIGAL QUINTANA</h1>
+      <p>Bailaron de Folklore | yuriria, GTO</p>
+      <p>Email: <a href="mailto:maqs070401hgtdnba5@cbtis217.edu.mx">maqs070401hgtdnba5@cbtis217.edu.mx</a> | Instagram: sxmq13</p>
+    </header>
+
+    <section class="cv-section">
+      <h2>¿Quién soy?</h2>
+      <p>Soy una persona amante de bailar cualquier genero, escuchar grupos de kpop y de artistas pop, me gusta enseñar lo que se parea que
+        otras personas lo sepan, me gusta ver hombres con peluca (LA MAS DRAGA Y DRA RACE MEXICO), me gusts el pozole rojo y la pizza de pepeproni
+        y la maizena y jugos del valle.
+      </p>
+    </section>
+
+    <section class="cv-section">
+      <h2>Lo que he hecho</h2>
+      <div class="cv-item">
+        <h3>ENSEÑAR DANZA FOLKLORICA</h3>
+        <p><em>Desde el 2022</em></p>
+        <ul>
+          <li>he puesto varias estampas de Mexico para concursos entre secundarias, ganando el primer lugar 2 años seguidos.</li>
+          <li>amo la danza :)</li>
+        </ul>
+      </div>
+      <div class="cv-item">
+        <h3>DAR CLASES DE INGLES</h3>
+        <p><em>2024- actualidad</em></p>
+        <ul>
+          <li>por el servicio, empeze a impartir clases de ingles en una secundaria y he tenido buena respuesta por parte de los alumnos.</li>
+        </ul>
+      </div>
+    </section>
+
+    
+  <footer>
+    <p>¿Te interesa saber más? ¡Escríbeme! | <a href="https://github.com/sxmq13">Mi GitHub</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      console.log("¡CV cargado con estilo!");
+    });
+  </script>
 </body>
 </html>
