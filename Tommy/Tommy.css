@@ -1,0 +1,48 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Adobe Garamond Pro', serif; /* Similar a Dark Souls 3 */
+    color: #888;
+    background-image: url('ImgT/453d17f26995df6bd67d698c90ba2fd27157a61875e1a9730545da23474c6aaf\ \(1\).jpg'); /* Reemplaza con tu imagen */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Heading styles */
+  h1, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #86881d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #a00a05;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
